@@ -5,7 +5,7 @@ const SongItem = ({ song }) => {
   return (
     <>
       <li>
-        <p>{song["im:name"]["label"]} by {song["im:artist"]["label"]}</p>
+        <p>"{song["im:name"]["label"]}" by {song["im:artist"]["label"]}</p>
       </li>
       
     </>

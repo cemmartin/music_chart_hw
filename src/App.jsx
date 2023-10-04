@@ -4,12 +4,11 @@ import ListContainer from './containers/ListContainer'
 
 function App() {
   return (
-    <>
-      <h1>UK Top 20</h1>
-      <hr></hr>
+    <div className='container'>
+      <h1><u>UK Top 20</u></h1>
       <ListContainer/>
-      <p>some text here</p>
-    </>
+      <br></br>
+    </div>
   )
 }
 

@@ -8,7 +8,6 @@ const SongList = ({ songs }) => {
   });
   return (
     <>
-      <p>song list text!</p>
       <ol>{songItems}</ol>
     </>
   );
